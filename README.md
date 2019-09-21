@@ -45,4 +45,3 @@ Generated optimized items :: Item6
 Unit Testing
 The application can be tested by following ways.
 Right click on the file TestItemCategoryService.java and run it as a JUnit.
-
