@@ -1,20 +1,8 @@
 <HTML>
 <HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=us-ascii">
-	<TITLE></TITLE>
-	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.1  (FreeBSD/amd64)">
-	<META NAME="CREATED" CONTENT="20190921;1354600">
-	<META NAME="CHANGED" CONTENT="0;0">
-	<STYLE TYPE="text/css">
-	<!--
-		@page { margin: 0.79in }
-		P { margin-bottom: 0.08in }
-		PRE.cjk { font-family: "Courier", monospace }
-	-->
-	</STYLE>
 </HEAD>
 <BODY LANG="en-US" DIR="LTR">
-<PRE CLASS="western"># Item Category Coding Challenge
+<PRE CLASS="western"><h1># Item Category Coding Challenge</h1>
 <h2>Synopsis</h2>
 This is a Java application that implements Item, category solution.</br>
 The service will expose three methods:</br>
