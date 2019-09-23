@@ -36,7 +36,7 @@ Clone the repository or download it on the local machine.</br>
 Execute Maven build operation.</br>
 
 <h2>Output</h2></br>
-<h3>Output from the ItemCateory project: <h3></br>
+<h3>Output from the ItemCateory project: </h3></br>
 The below is the output, however the values and order of the output may differ on every execution.</br>
 Sep 22, 2019 8:08:30 PM demo.service.ItemCategoryServiceImpl generateItemCategories</br>
 INFO: Generated item category :: [Category1, Category2, Category3, Category4, Category5, Category6, Category7, Category8, Category9, Category10, Category11, Category12, Category13, Category14, Category15, Category16, Category17, Category18, Category19, Category20]</br>
@@ -55,7 +55,7 @@ INFO: Generated optimized items :: Item9</br>
 Sep 22, 2019 8:08:30 PM demo.service.ItemCategoryServiceImpl lambda$5</br>
 INFO: Generated optimized items :: Item6</br>
 
-<h3>Output from the ItemCateoryRestService project: <h3></br>
+<h3>Output from the ItemCateoryRestService project: </h3></br>
 
 1) The below output will be received when we hit the URL (http://localhost:8080/item/category/pickoptimizeditems)</br>
 {</br>
