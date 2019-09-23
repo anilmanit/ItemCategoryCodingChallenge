@@ -35,7 +35,8 @@ JUnit for testing</br>
 Clone the repository or download it on the local machine.</br>
 Execute Maven build operation.</br>
 
-<h2>Output</h2>
+<h2>Output</h2></br>
+<h3>Output from the ItemCateory project: <h3></br>
 The below is the output, however the values and order of the output may differ on every execution.</br>
 Sep 22, 2019 8:08:30 PM demo.service.ItemCategoryServiceImpl generateItemCategories</br>
 INFO: Generated item category :: [Category1, Category2, Category3, Category4, Category5, Category6, Category7, Category8, Category9, Category10, Category11, Category12, Category13, Category14, Category15, Category16, Category17, Category18, Category19, Category20]</br>
@@ -54,10 +55,67 @@ INFO: Generated optimized items :: Item9</br>
 Sep 22, 2019 8:08:30 PM demo.service.ItemCategoryServiceImpl lambda$5</br>
 INFO: Generated optimized items :: Item6</br>
 
+<h3>Output from the ItemCateoryRestService project: <h3></br>
 
-<h2>Unit Testing</h2>
+1) The below output will be received when we hit the URL (http://localhost:8080/item/category/pickoptimizeditems)</br>
+{</br>
+"Generated optimized items ::": [</br>
+"Item3",</br>
+"Item5"</br>
+],</br>
+"Coordinates of the selected items :: ": [</br>
+"Category3:Item3,Category8:Item5"</br>
+],</br>
+"Total Cost & Rating of the selected items ::": [</br>
+"Total Cost of the selected items :: 35.0",</br>
+"Total Rating of the selected items :: 10"</br>
+]</br>
+}</br>
+2) The below output will be received when we hit the URL (http://localhost:8080/item/category/generateItemsOfEachCategory)</br>
+
+[
+"Item1",</br>
+"Item2",</br>
+"Item3",</br>
+"Item4",</br>
+"Item5",</br>
+"Item6",</br>
+"Item7",</br>
+"Item8",</br>
+"Item9",</br>
+"Item10"</br>
+]
+
+3) The below output will be received when we hit the URL (http://localhost:8080/item/category/generateItemCategories)</br>
+
+[</br>
+"Category1",</br>
+"Category2",</br>
+"Category3",</br>
+"Category4",</br>
+"Category5",</br>
+"Category6",</br>
+"Category7",</br>
+"Category8",</br>
+"Category9",</br>
+"Category10",</br>
+"Category11",</br>
+"Category12",</br>
+"Category13",</br>
+"Category14",</br>
+"Category15",</br>
+"Category16",</br>
+"Category17",</br>
+"Category18",</br>
+"Category19",</br>
+"Category20"</br>
+]</br>
+<h2>Unit Testing</h2></br>
 The application can be tested by following ways.</br>
-Right click on the file TestItemCategoryService.java and run it as a JUnit.</br>
+1) ItemCateory Service can be tested as below </br>
+	Right click on the file TestItemCategoryService.java and run it as a JUnit.</br>
+2) ItemCateoryRestService can be tested as below </br>
+	Right click on the file ItemCategoryDemoApplication.java and run it. Also use the above mentioned URL's in Output section.</br>
 </PRE>
 </BODY>
 </HTML>
